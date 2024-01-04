@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form</title>
+
+    <link rel="stylesheet" href="./styles/styles5.css">
+
+    <link rel="shortcut icon" href="./icons/play.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Full Name:
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </label>
+
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                </label>
+
+                <label for="phone">Phone:
+                    <input type="number" name="phone" id="phone" placeholder="Enter Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick One Subject</legend>
+                    <label for="css">
+                        <input type="radio" name="subject" id="css" value="css">CSS
+                    </label>
+                    <label for="HTML5">
+                        <input type="radio" name="subject" id="HTML5" value="HTML5">HTML5
+                    </label>
+                    <label for="JavaScript">
+                        <input type="radio" name="subject" id="JavaScript" value="JavaScript">JavaScript
+                    </label>
+                    <label for="React">
+                        <input type="radio" name="subject" id="React" value="React">React
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick One or more hobby</legend>
+                    <label for="Read">
+                        <input type="checkbox" name="Read" id="Read">Read
+                    </label>
+                    <label for="Write">
+                        <input type="checkbox" name="Write" id="Write">Write
+                    </label>
+                    <label for="Gardening">
+                        <input type="checkbox" name="Gardening" id="Gardening">Gardening
+                    </label>
+                    <label for="Traveling">
+                        <input type="checkbox" name="Traveling" id="Traveling">Traveling
+                    </label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Comments:</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+               <input type="reset" value="Reset">
+               <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
