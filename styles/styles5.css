@@ -3,7 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-   
+    list-style: none;
+
 }
 body{
     width: 1000px;
@@ -47,4 +48,28 @@ table{
 td,th{
     border: 1px solid black;
     padding: 5px 10px;
+}
+
+/* navbar */
+header{
+    background-color: cadetblue;
+    padding: 40px;
+}
+nav > ul{
+
+
+}
+
+nav ul li a{
+    color: #690ac1;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li:hover{
+    background-color: aliceblue;
+}
+
+nav ul li a:hover{
+    font-size: 25px;
 }
