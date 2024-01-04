@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
