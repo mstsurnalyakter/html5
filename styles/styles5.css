@@ -3,7 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+   
+}
+body{
+    width: 1000px;
+    margin:10px auto;
 }
 
 nav > ul {
@@ -18,11 +22,29 @@ footer{
 
 /* form style */
 form{
-    width: 1000px;
+    width: 900px;
     margin: 10px auto;
 }
 
 label{
     display: block;
     margin: 20px;
+}
+
+/* table */
+main{
+    width: 900px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+   border-collapse: collapse;
+   margin: 10px;
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px 10px;
 }
