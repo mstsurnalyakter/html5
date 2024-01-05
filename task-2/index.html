@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling Content Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../icons/play.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Storytelling Content Feedback</h1>
+    <form action="https://formspree.io/f/mgegepng" method="post">
+        <!-- Story Textarea -->
+        <label for="Story">Your Story:</label>
+        <textarea name="story" id="story" cols="50" rows="8" required></textarea>
+        <br><br>
+        <!-- Rating Dropdown -->
+        <label for="rating">Rate the Story:</label>
+        <select name="rating" id="rating">
+            <option value="" disabled selected>Select Rating</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="below_average">Below Average</option>
+        </select>
+
+        <br><br>
+        <!-- submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
