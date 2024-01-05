@@ -53,23 +53,53 @@ td,th{
 /* navbar */
 header{
     background-color: cadetblue;
-    padding: 40px;
-}
-nav > ul{
-
+    height: 50px;
+    padding-top: 10px;
 
 }
 
-nav ul li a{
+
+
+
+nav > ul > li > a{
     color: #690ac1;
     font-size: 20px;
     font-weight: bolder;
 }
 
-nav ul li:hover{
+nav > ul > li:hover{
     background-color: aliceblue;
 }
 
-nav ul li a:hover{
-    font-size: 25px;
+
+
+/* Dropdown Menu */
+
+nav li .dropdown{
+    display: none;
+    width: 100px;
+
+
+}
+
+nav li .dropdown a{
+    color: white;
+}
+
+
+nav li:hover > .dropdown{
+    display: block;
+    position: absolute;
+     background-color: #f278b5;
+     padding: 10px;
+}
+
+
+
+nav li .dropdown li:hover{
+    border-bottom: 1px solid white;
+}
+nav li .dropdown li a:hover{
+       color: black;
+       margin: 5px;
 }
