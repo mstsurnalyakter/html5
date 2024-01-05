@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d1b9e8;
+    height: calc(100vh - 20vh);
+}
+
+header{
+    border-bottom: 1px solid #d887de;
+    border-top: 1px solid #d887de;
+    height: 49vh;
+    padding-left: 20px;
+}
+header figure img{
+    width: 500px;
+}
+header,main{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.common{
+     display: flex;
+    flex-direction: column;
+
+}
+
+form{
+    height: 60vh;
+     padding-left: 20px;
+     padding-top: 20px;
+}
+
+.header_text,.header_image{
+    margin: 20px;
+    font-size: 20px;
+}
+
+form p{
+    font-size: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    padding: 10px;
+    width: 200px;
+}
+::placeholder{
+    font-size: 20px;
+}

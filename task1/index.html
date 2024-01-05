@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <link rel="shortcut icon" href="../icons/play.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header class="common">
+      <section class="header_text">
+        <span>Search your Image here: </span>
+        <input
+          type="text"
+          name="image"
+          id="image"
+          value="Kung Fu Panda"
+        />
+        <button>Search</button>
+      </section>
+      <figure class="header_image common">
+        <img
+          src="./images/penda.png"
+          alt="Kung Fu Panda"
+        />
+
+      </figure>
+      <a href="https://unsplash.com/s/photos/Kung-Fu-Panda"
+          >For more click here</a
+        >
+    </header>
+    <main class="common">
+        <form class="common">
+            <p>Feedback Form:</p>
+            <label for="name">
+                Name:
+                <input type="text" name="name" id="name" value="Mst Surnaly Akter">
+            </label>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email" value="surnaly@gmail.com">
+            </label>
+            <label for="data">
+                Date:
+                <input type="date" name="data" id="data">
+            </label>
+            <label for="comment">
+                Comment:
+                <br>
+                <textarea name="comment" id="comment" cols="45" rows="6" placeholder="Enter Your Comment"></textarea>
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+  </body>
+</html>
