@@ -1,0 +1,29 @@
+body{
+    background-color: #ccc;
+
+}
+main{
+    height: 60vh;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    background-color: #fff;
+    margin: 150px auto 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
+table,td,th{
+    border: 1px solid black;
+}
+td,th{
+    padding: 10px;
+}
+
+b{
+    display:block;
+    text-align: center;
+}
